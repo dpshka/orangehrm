@@ -1,0 +1,8 @@
+[28-Oct-2021 11:48:46 UTC] PHP Fatal error:  Uncaught sfCacheException: Failed to make cache directory "/opt/bitnami/orangehrm/symfony/cache/orangehrm/prod/config" while generating cache for configuration file "config/config_handlers.yml". in /opt/bitnami/orangehrm/symfony/lib/vendor/symfony/lib/config/sfConfigCache.class.php:340
+Stack trace:
+#0 /opt/bitnami/orangehrm/symfony/lib/vendor/symfony/lib/config/sfConfigCache.class.php(110): sfConfigCache->writeCacheFile()
+#1 /opt/bitnami/orangehrm/symfony/lib/vendor/symfony/lib/config/sfConfigCache.class.php(197): sfConfigCache->callHandler()
+#2 /opt/bitnami/orangehrm/symfony/lib/vendor/symfony/lib/config/sfConfigCache.class.php(280): sfConfigCache->checkConfig()
+#3 /opt/bitnami/orangehrm/symfony/lib/vendor/symfony/lib/config/sfConfigCache.class.php(54): sfConfigCache->loadConfigHandlers()
+#4 /opt/bitnami/orangehrm/symfony/lib/vendor/symfony/lib/config/sfConfigCache.class.php(197): sfConfigCache->callHandler()
+#5 /opt/bitnami/orangehrm/symfony/lib/vendor/symfony/lib/config/sfConfigCache.class.php(250): sfConf in /opt/bitnami/orangehrm/symfony/lib/vendor/symfony/lib/config/sfConfigCache.class.php on line 340
