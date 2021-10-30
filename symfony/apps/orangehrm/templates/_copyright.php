@@ -9,5 +9,5 @@ $prodName = 'OrangeHRM';
 $copyrightYear = date('Y');
 
 ?>
-<?php echo $prodName . ' ' . $version;?><br/>
-&copy; 2005 - <?php echo $copyrightYear;?> <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.
+
+&copy; 2021 <a href="https://www.prudential.com.hk" target="_blank">Prudential (Hong Kong) Limited</a>. All rights reserved.

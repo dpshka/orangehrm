@@ -19,16 +19,7 @@
  */
 ?>
 <div style="text-align: center;padding: 10px;">
-    <form id="openIDForm" method="post" action="<?php echo url_for('openidauth/openIdCredentials'); ?>" style="text-align: center">
 
-        <?php if (isset($form)) {
-            echo $form['_csrf_token']->render();
-            echo __('Alternative Login');
-            ?> : <?php echo $form['openIdProvider']->render(); ?>
-
-            <input type="button" value="<?php echo __('Login'); ?>" name="openIdLogin" id="openIdLogin"/>
-        <?php } ?>
-    </form>
 </div>
 
 <style>
