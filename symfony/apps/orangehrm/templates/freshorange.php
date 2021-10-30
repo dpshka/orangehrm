@@ -12,22 +12,11 @@ $subscribed = $sf_user->isSubscribed();
         <div id="wrapper">
 
             <div id="branding">
-                <a href="https://www.prudential.com.hk" target="_blank"><img src="<?php echo theme_path('images/logo.png')?>"  height="80" alt="OrangeHRM"/></a>
+                <a href="https://www.prudentialplc.com/" target="_blank"><img src="<?php echo theme_path('images/logo.png')?>"  height="80" alt="OrangeHRM"/></a>
                 <a href="#" id="welcome" class="panelTrigger"><?php echo __("Welcome %username%", array("%username%" => $sf_user->getAttribute('auth.firstName'))); ?></a>
                 <?php include_component('buzz', 'viewNotification'); ?>
                 <?php include_component('help', 'viewHelp'); ?>
-                <?php if(!$subscribed) { ?>
-                    <div id="MP_btn">
-                        <input id="Subscriber_link" type="button" class="button" value="<?php echo __('Subscribe'); ?>"/>
-                    </div>
-                    <div id="mp_btn_inner">
-                        <input id="MP_link" type="button" class="button" value="<?php echo __('Marketplace'); ?>"/>
-                    </div>
-                <?php } else {?>
-                    <div id="MP_btn">
-                        <input id="MP_link" type="button" class="button" value="<?php echo __('Marketplace'); ?>"/>
-                    </div>
-                <?php } ?>
+
                 <script>
                     var marketplaceURL = "<?php echo url_for('marketPlace/ohrmAddons'); ?>";
                     var SubscriberURL = "<?php echo url_for('pim/subscriber'); ?>";

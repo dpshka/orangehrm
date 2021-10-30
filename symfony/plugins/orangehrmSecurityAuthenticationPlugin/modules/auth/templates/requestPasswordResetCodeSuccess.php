@@ -35,7 +35,7 @@
             <fieldset>
                 <ol>
                     <li>
-                        <?php echo $form['userName']->renderLabel(__('OrangeHRM Username')); ?>
+                        <?php echo $form['userName']->renderLabel(__('Username')); ?>
                         <?php echo $form['userName']->render(); ?>
                         <?php echo $form['userName']->renderError() ?>
                     </li>

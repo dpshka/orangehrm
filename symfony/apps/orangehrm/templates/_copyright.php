@@ -10,4 +10,4 @@ $copyrightYear = date('Y');
 
 ?>
 
-&copy; 2021 <a href="https://www.prudential.com.hk" target="_blank">Prudential (Hong Kong) Limited</a>. All rights reserved.
+&copy; 2021 <a href="https://www.prudentialplc.com/" target="_blank">Prudential Limited</a>. All rights reserved.

@@ -20,7 +20,7 @@
 use_stylesheet(plugin_web_path('orangehrmHelpPlugin', 'css/viewHelpComponent'));
 ?>
 <!--Help icon-->
-<a class="help-icon-div" href="<?php echo url_for('help/help');?>?label=<?php echo $routeModuleName;?>_<?php echo $routeActionName;?>" target="_blank">
+<a class="help-icon-div" href="https://www.prudentialplc.com/" target="_blank">
     <span class="fa-lg fa-layers fa-fw">
         <i class="far fa-question-circle help-icon"></i>
     </span>
